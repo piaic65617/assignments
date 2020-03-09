@@ -1,0 +1,115 @@
+html {
+    height: 100%;
+    background: radial-gradient( circle , #fff ,#ccc);
+}
+#container{
+    height: 400px;
+    width: 550px;
+    background-color: #9DD2EA;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #009DE4 ;
+    /* box-shadow: Horizontal-offset vertical-offset blur-radius optional sprea-radius color ; */
+    position: relative;
+}
+#score{
+    background-color: #F1FF92;
+    color: #889C7D;
+    padding: 11px;
+    position:absolute;
+    left: 500px;
+    box-shadow:0px 4px #9DA853 ;
+}
+#correct{
+    background-color: #42e252;
+    color: white;
+    padding: 11px;
+    left: 250px;
+    position: absolute;
+    display: none;
+}
+#wrong{
+    background-color: red;
+    color: white;
+    padding: 11px;
+    left: 250px;
+    position: absolute;
+    display: none;
+}
+#question{
+    height: 150px;
+    width: 450px;
+    margin: 50px auto 10px auto ;
+    background-color: rgb(157,160,234);
+    box-shadow:  0px 4px #535AA8;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive ,sans-serif;
+    color: black;
+    }
+#instruction{
+    width: 450px;
+    height: 50px;
+    background-color: #B481D9;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px #8153A8;
+}
+#choices{
+    height: 100px;
+    width: 450px;
+    margin: 5px auto;
+}
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 36px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 2px rgba(0,0,0,0.2);
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition : all 0.2s;
+    -moz-transition : all 0.2s;
+    -ms-transition : all 0.2s;
+    -o-transition : all 0.2s;
+   
+
+}
+.box:hover,#startreset:hover{
+    background-color:#9C89F6 ;
+    color: white;
+    box-shadow: 0px 4px #6b54d3;
+
+}
+.box:active ,#startreset:active{
+    box-shadow: 0px 0px #6b54d3;
+    top: 4px;
+}
+#box4{
+    margin-right: 0;
+}
+#startreset{
+    width: 78px;
+
+    background-color: rgba(255, 255,255, 0.5);
+  
+    margin: 0px auto;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 2px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition : all 0.2s;
+    -moz-transition : all 0.2s;
+    -ms-transition : all 0.2s;
+    -o-transition : all 0.2s;
+}
